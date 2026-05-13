@@ -452,7 +452,7 @@ window.goToPaystack = () => {
     localStorage.setItem("glamour_pending_user", JSON.stringify(userData));
 
     // 3. Open Paystack in a NEW tab so the dashboard stays open on the 'Verifying' step
-    window.open("payment.html", "_blank");
+    window.open("https://checkout.korapay.com/pay/B9UpESHGq2aZ7YY", "_blank");
 
     // 4. Switch the modal view to "Payment Completed?"
     document.getElementById('paymentInitial').classList.add('hidden');
